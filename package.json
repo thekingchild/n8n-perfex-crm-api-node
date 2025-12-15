@@ -1,0 +1,39 @@
+{
+  "name": "n8n-nodes-perfex-crm",
+  "version": "0.1.0",
+  "description": "n8n community nodes to integrate with Perfex CRM REST API",
+  "author": "Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/repo/n8n-nodes-perfex-crm.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "assets",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "lint": "eslint src --ext .ts",
+    "test": "jest --coverage",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "^1.52.0",
+    "n8n-core": "^1.52.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "axios": "^1.7.7",
+    "eslint": "^9.13.0",
+    "jest": "^29.7.0",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
