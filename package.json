@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://example.com/repo/n8n-nodes-perfex-crm.git"
+    "url": "https://github.com/thekingchild/n8n-perfex-crm-api-node"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
