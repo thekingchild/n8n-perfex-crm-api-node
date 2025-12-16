@@ -10,6 +10,23 @@
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "n8n-community-node",
+    "n8n",
+    "perfex",
+    "crm",
+    "perfex-crm"
+  ],
+  "homepage": "https://github.com/thekingchild/n8n-perfex-crm-api-node#readme",
+  "bugs": {
+    "url": "https://github.com/thekingchild/n8n-perfex-crm-api-node/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "files": [
     "dist",
     "assets",
