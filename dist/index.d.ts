@@ -1,6 +1,8 @@
 /**
  * Entry point for n8n community nodes: Perfex CRM
  */
-import type { INodeType, INodeTypeDescription } from 'n8n-workflow';
-export declare const nodes: INodeType[];
-export declare const credentials: INodeTypeDescription[];
+import { PerfexNode } from './nodes/Perfex/Perfex.node';
+import { PerfexTrigger } from './nodes/Perfex/PerfexTrigger.node';
+import { PerfexApi } from './credentials/PerfexApi.credentials';
+export declare const nodes: (typeof PerfexNode | typeof PerfexTrigger)[];
+export declare const credentials: (typeof PerfexApi)[];
