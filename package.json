@@ -1,6 +1,15 @@
 {
   "name": "@thekingchild-bot/n8n-nodes-perfex-crm",
-  "version": "0.1.2",
+  "version": "0.1.4",
+  "n8n": {
+    "nodes": [
+      "dist/nodes/Perfex/Perfex.node.js",
+      "dist/nodes/Perfex/PerfexTrigger.node.js"
+    ],
+    "credentials": [
+      "dist/credentials/PerfexApi.credentials.js"
+    ]
+  },
   "description": "n8n community nodes to integrate with Perfex CRM REST API",
   "author": "Community",
   "license": "MIT",

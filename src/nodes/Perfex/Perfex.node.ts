@@ -7,7 +7,7 @@ import type {
 import { NodeOperationError } from 'n8n-workflow';
 import { mapEndpoint, perfexRequest } from '../../transport';
 
-export class PerfexNode implements INodeType {
+export class Perfex implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'Perfex CRM',
     name: 'perfexCrm',

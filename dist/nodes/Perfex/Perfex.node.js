@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PerfexNode = void 0;
+exports.Perfex = void 0;
 const n8n_workflow_1 = require("n8n-workflow");
 const transport_1 = require("../../transport");
-class PerfexNode {
+class Perfex {
     constructor() {
         this.description = {
             displayName: 'Perfex CRM',
@@ -150,4 +150,4 @@ class PerfexNode {
         return [returnData];
     }
 }
-exports.PerfexNode = PerfexNode;
+exports.Perfex = Perfex;
