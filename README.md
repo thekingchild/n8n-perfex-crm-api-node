@@ -12,6 +12,10 @@ Community node package for n8n that integrates with Perfex CRM REST API.
 ## Installation
 - In an n8n instance, install the published package from npm or add the files under `~/.n8n/custom`.
 
+## Requirements
+- Your Perfex CRM installation must have the official REST API module installed and activated.
+- Module: `https://codecanyon.net/item/rest-api-for-perfex-crm/25278359`
+
 ## Authentication
 - Generate an API token in Perfex CRM.
 - Use either:
